@@ -1,7 +1,7 @@
 'use strict'
 
 const { Schema, model } = require('mongoose'); // Erase if already required
-const { ALL, SPECIFIC } = require('./enums/filterType')
+const { ALL, SPECIFIC } = require('../enums/filterType')
 
 const DOCUMENT_NAME = 'Discount'
 const COLLECTION_NAME = 'Discounts'
